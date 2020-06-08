@@ -1,6 +1,6 @@
 <?php
 
-use DB;
+
 class User {
   //formatting the response
   protected function formatResponse($data) {
@@ -25,3 +25,6 @@ protected function validateUser($user) {
      return DB::table('users')->findOrFail($userID);
     }
   }
+
+  $user = new User();
+  var_dump($user->validateUser);
