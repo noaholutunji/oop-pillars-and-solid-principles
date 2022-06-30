@@ -1,5 +1,6 @@
 <?php
 
+use DB;
 class User {
   //formatting the response
   protected function formatResponse($data) {
