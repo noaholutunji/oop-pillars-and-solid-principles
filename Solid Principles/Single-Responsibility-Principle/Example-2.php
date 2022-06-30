@@ -21,8 +21,8 @@ class BookCount {
 }
 
 
-$book = new BookDetails('latest');
+$book = new BookDetails();
 var_dump($book->getAuthor());
 
-$bookcount = new BookCount('abc');
+$bookcount = new BookCount();
 var_dump($bookcount->getPage());
