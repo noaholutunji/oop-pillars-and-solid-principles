@@ -46,5 +46,5 @@ class UserDB {
 $db = new DbConnection();
 var_dump($db->connect());
 
-$userdb = new UserDB($dbConnection);
-var_dump($userdb->store($user));
+$userdb = new UserDB($db);
+var_dump($userdb);
